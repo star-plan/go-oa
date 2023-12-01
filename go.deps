@@ -1,0 +1,11 @@
+github.com/astaxie/beego
+github.com/astaxie/beego/cache
+github.com/astaxie/beego/cache/memcache
+github.com/astaxie/beego/cache/redis
+github.com/astaxie/beego/context
+github.com/astaxie/beego/orm
+github.com/astaxie/beego/utils/pagination
+github.com/BurntSushi/graphics-go/graphics
+github.com/go-sql-driver/mysql
+github.com/oliamb/cutter
+github.com/zheng-ji/goSnowFlake
