@@ -28,7 +28,7 @@ func (this *ManageApprovalController) Get() {
 	this.TplName = "leaves/approval-index.tpl"
 }
 
-// 我的
+// ManageLeaveController 我的
 type ManageLeaveController struct {
 	controllers.BaseController
 }
@@ -71,7 +71,7 @@ func (this *ManageLeaveController) Get() {
 	this.TplName = "leaves/index.tpl"
 }
 
-// 审批
+// ApprovalLeaveController 审批
 type ApprovalLeaveController struct {
 	controllers.BaseController
 }

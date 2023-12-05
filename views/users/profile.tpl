@@ -131,8 +131,12 @@
                                             <tr>
                                                 <td><a href="/project/{{$v.Id}}">{{$v.Name}}</a></td>
                                                 <td>{{getDate $v.Ended}}</td>
-                                                <td>{{if eq 1 $v.Status}}挂起{{else if eq 2 $v.Status}}延期{{else if eq
-                                                    3 $v.Status}}进行{{else if eq 4 $v.Status}}结束{{end}}
+                                                <td>
+                                                    {{if eq 1 $v.Status}}挂起
+                                                    {{else if eq 2 $v.Status}}延期
+                                                    {{else if eq 3 $v.Status}}进行
+                                                    {{else if eq 4 $v.Status}}结束
+                                                    {{end}}
                                                 </td>
                                                 <td><a href="/user/show/{{$v.Projuserid}}">{{getRealname
                                                     $v.Projuserid}}</a></td>
